@@ -1,5 +1,10 @@
 # foca
 beginner 
+# Zum Compilieren mit PyInstaller
+```shell
+ C:\Users\vornmae.name\AppData\Local\Programs\Python\Python312\python.exe -m PyInstaller --onefile --noconsole 'C:\Users\vornmae.name\Desktop\python projekte\WLM3.5_GUI.py'
+```
+
 # Wirkleistungsrechner (Tkinter)
 
 Ein einfaches Desktop‑Tool zur Berechnung der **Wirkleistung P** eines ohmschen Lastwiderstands aus **Spannung V** und **Widerstand R**, inklusive Vergleich mit einem **gemessenen/angezeigten Leistungswert**. Die App zeigt die **prozentuale Abweichung** farblich an (grün/gelb/rot), validiert Eingaben und bietet **Kopier‑Buttons** für die berechneten Werte.
